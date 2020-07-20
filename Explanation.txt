@@ -1,0 +1,33 @@
+Royal coin club, a club for playing gambling, they decided to conduct a program, where 
+the coins of any number will be arranged in a row, the one who is going to play should,
+for every time he/she, pick any coin[i] and delete it to earn coin[i] points. 
+After, you must delete every element equal to coin[i] - 1 or coin[i] + 1
+design algorithm for that play
+
+Input description:
+Value of coins in a array
+
+Output Description:
+Maximum point they earned
+
+Sample input:
+1 2 4 3 5 4
+
+Sample Output:
+9
+
+Explanation:
+delete 2 to earn 2 points and 1 is deleted consequently
+delete 3 to earn 2+3 points and 4 is deleted consequently
+delete 4 to earn 2+3+4 points and 5 is deleted consequently
+total 9
+
+Sample input:
+3 4 2
+
+Sample output:
+6
+
+Explanation:
+Delete 4 to earn 4 points, consequently 3 is also deleted.
+Then, delete 2 to earn 2 points. 6 total points are earned.
